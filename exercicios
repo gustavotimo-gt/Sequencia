@@ -1,0 +1,108 @@
+1. #include <stdio.h>
+
+int main()
+{
+    float velocidade, tempo, distancia;
+    
+    scanf("%f", &velocidade);
+    scanf("%f", &tempo);
+    
+    distancia = (velocidade * tempo);
+    
+    printf("A distancia percorrida sera: %.2f\n", distancia);
+
+    return 0;
+}
+
+2. #include <stdio.h>
+
+int main()
+{
+   float x, resultado;
+   
+   scanf("%f", &x);
+   
+   resultado = (x + 4) * (x - 6);
+   
+   printf("O resultado sera: %.2f\n", resultado);
+   
+   
+    return 0;
+    
+}
+3.#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    float co, ca, h;
+    scanf("%f", &co);
+    scanf("%f", &ca);
+    
+    h = sqrt ( pow(co,2) + pow(ca,2));
+    
+    printf("a hipotenusa sera: %.2f", h);
+    
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4. #include <stdio.h>
+#include <math.h>
+
+int main(){
+
+  
+float a, b, c, delta, x1, x2;
+
+scanf("%f", &a);
+scanf("%f", &b);
+scanf("%f", &c);
+
+delta = pow(b, 2) - (4 * a * c); 
+
+x1 = (-b + sqrt(delta)) / (2 * a);
+
+x2 = (-b - sqrt(delta)) / (2 * a);
+
+printf("o delta sera: %.2f\n", delta);
+
+printf("a solucao x1 sera:%.2f\n", x1);
+
+printf("a solucao x2 sera:%.2f\n", x2);
+
+return 0;
+}
