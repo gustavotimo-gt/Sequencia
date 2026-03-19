@@ -46,3 +46,15 @@ int main()
 
     return 0;
 }
+
+4. #include <stdio.h>
+
+int main() { float v1, v2, v3, media;
+
+scanf("%f", &v1); scanf("%f", &v2); scanf("%f", &v3);
+
+media = ((v1 * 2 ) + (v2 * 5) + (v3 * 7)) / (2 + 5 + 7) ;
+
+
+printf(" A media e: %.2f\n", media);
+return 0; }
