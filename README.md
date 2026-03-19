@@ -58,3 +58,29 @@ media = ((v1 * 2 ) + (v2 * 5) + (v3 * 7)) / (2 + 5 + 7) ;
 
 printf(" A media e: %.2f\n", media);
 return 0; }
+
+5. #include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    float a, b, c, delta, x1, x2;
+    
+    scanf("%f", &a);
+    scanf("%f", &b);
+    scanf("%f", &c);
+    
+    delta = pow(b, 2) - (4 * a * c);
+    
+    x1 = (-b + sqrt(delta)) / (2 * a);
+    
+ x2 = (-b - sqrt(delta)) / (2 * a);
+    printf("delta sera: %.2f\n", delta);
+    printf("a solucao x1 sera: %.2f\n", x1);
+    printf("a solucao x2 sera: %.2f\n", x2);
+
+    
+    
+    return 0;
+}
+
