@@ -100,6 +100,21 @@ int main()
 
     
     
+7. #include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    float v, r;
+   
+   
+ scanf("%f", &r);
+    
+   
+    v = (4.0 / 3.0 * 3.14) * pow(r, 3);
+    
+    printf("O volume da esfera sera: %.2f\n", v);
+
     return 0;
 }
 
