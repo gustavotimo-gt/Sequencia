@@ -79,6 +79,25 @@ int main()
     printf("a solucao x1 sera: %.2f\n", x1);
     printf("a solucao x2 sera: %.2f\n", x2);
 
+    6. #include <stdio.h>
+
+int main()
+{
+   float v, v0, a, t ;
+   
+   scanf("%f", &v0);
+   scanf("%f", &a);
+   scanf("%f", &t);
+   
+   v = v0 + (a * t);
+   
+   printf("a velocidade final sera: %.2f\n", v);
+   
+   
+    return 0;
+}
+
+
     
     
     return 0;
